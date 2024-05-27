@@ -1,0 +1,7 @@
+-Dmangoapp=true
+-Dmangoapp_layer=true
+-Dmangohudctl=true
+-Dinclude_doc=true
+-Duse_system_spdlog=enabled
+-Dwith_wayland=enabled
+-Dwith_xnvctrl=disabled
