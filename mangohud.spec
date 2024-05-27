@@ -7,10 +7,10 @@
 #
 Name     : mangohud
 Version  : 0.7.2
-Release  : 1
+Release  : 2
 URL      : https://github.com/flightlessmango/MangoHud/releases/download/v0.7.2/MangoHud-v0.7.2-Source.tar.xz
 Source0  : https://github.com/flightlessmango/MangoHud/releases/download/v0.7.2/MangoHud-v0.7.2-Source.tar.xz
-Summary  : Fast C++ logging library.
+Summary  : A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mangohud-bin = %{version}-%{release}
@@ -92,7 +92,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1716785783
+export SOURCE_DATE_EPOCH=1716785956
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
